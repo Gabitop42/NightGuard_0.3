@@ -41,5 +41,5 @@ fun FirstScreen(navController: NavHostController) {
     }
 }
 // La funcion FirstScreen define una pantalla con tres campos de texto Correo, Contraseña, Nombre utilizando un CustomTextField para cada uno
-// Los valores de los campos son gestionados mediante una lista mutable fieldStates y se pasa una lista de etiquetas y configuración de contraseñas isPasswordField
+// Los valores de los campos son gestionados mediante una lista fieldStates y se pasa una lista de etiquetas y configuración de contraseñas isPasswordField
 // Al hacer clic en el boton la pantalla navega hacia la "secondScreen" utilizando el navController
