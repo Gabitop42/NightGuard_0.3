@@ -19,6 +19,6 @@ fun NavigationGraph(navController: NavHostController, modifier: Modifier = Modif
         composable("secondScreen") { SecondScreen(navController) }
     }
 }
-// Esta funcion @Composable define la navegación de la aplicacion, utilizando NavHost para gestionar dos pantallas "firstScreen" y "secondScreen"
+// Esta funcion @Composable define la navegación de la aplicacion utilizando NavHost para gestionar dos pantallas "firstScreen" y "secondScreen"
 // que se navegan mediante un NavHostController . El destino inicial es "firstScreen" y cada pantalla esta asociada a un composable FirstScreen y SecondScreen.
 
